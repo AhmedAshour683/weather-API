@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index-style.css">
+    </head>
+
+    <body style="background-color: #1E202B;">
+
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <i class="fa-solid fa-cloud fa-2xl ms-4 text-primary"></i>
+          <a class="navbar-brand ms-auto ps-1 text-white" href="#">Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end pe-5 my-4" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active me-auto text-white linko" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-white mx-5 linko" href="#">News</a>
+              <a class="nav-link text-white linko" href="#">Live Cameras</a>
+              <a class="nav-link text-white mx-5 linko" href="#">photos</a>
+              <a class="nav-link text-white linko" href="#">Contacts</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="position-relative">
+        <img src="img/banner.png" alt="" class="w-100">
+        <input type="text" class="form-control w-50 d-block mx-auto position-absolute start-50 top-50 translate-middle-x inputo p-3 rounded-5 text-primary fw-bold" id="City">
+        <button class="btn btn-outline-secondary text-white py-2 px-5 rounded-5 button1 rounded-5" type="button" id="button-addon2">Find</button>
+      </div>
+
+      <div class="container">
+
+        <div class="row flex-row mb-5 justify-content-between">
+
+          
+            <div class="col-md-4 weather rounded-4 head mt-4 border border-2 border-warning">
+              <div class="d-flex justify-content-between rounded-start-4 head">
+                <h3 class="for-colour ps-2 pt-1" id="today">Wenesday</h3>
+                <p class="pt-2 pe-4 for-colour" id="daymonth">2August</p>
+              </div>
+
+              <div>
+                <p class="for-colour" id="place1">Cairo</p>
+                <div class="d-flex justify-content-between">
+                  <h1 class="me-5 text-white" id="temp1">34</h1>
+                  <i class="fa-solid fa-cloud-sun fa-2xl align-self-center me-5" style="color: #ffff00;"></i>
+                  </div>
+                <p class="mt-5 mb-4 for-colour" id="state1">Cloudy</p>
+                <i class="fa-solid fa-umbrella p-1 fa-xl mb-4" style="color: #c3c6d1;"></i> <span class="text-white" id="hum1">20%</span>
+                <i class="fa-solid fa-wind p-1 fa-xl" style="color: #c3c6d1;"></i> <span class="text-white" id="speed1">18Km/h</span>
+                <i class="fa-solid fa-compass p-1 fa-xl" style="color: #c3c6d1;"></i> <span class="text-white" id="dir1">East</span>
+              </div>
+
+            </div>
+
+
+
+            <div class="col-md-4 weather rounded-4 head mt-4 border border-2 border-warning">
+              <div class="d-flex justify-content-center rounded-start-4 head">
+                <h3 class="for-colour ps-2 pt-1" id="nextday">Wenesday</h3>
+              </div>
+
+              <div>
+                <p class="for-colour" id="place2">Cairo</p>
+                <div class="d-flex justify-content-between">
+                <h1 class="me-5 text-white" id="temp2">34</h1>
+                <i class="fa-solid fa-cloud-sun fa-2xl align-self-center me-5" style="color: #ffff00;"></i>
+                </div>
+                <p class="mt-5 mb-4 for-colour" id="state2">Cloudy</p>
+                <i class="fa-solid fa-umbrella p-1 fa-xl mb-4" style="color: #c3c6d1;"></i> <span class="text-white" id="hum2">20%</span>
+                <i class="fa-solid fa-wind p-1 fa-xl" style="color: #c3c6d1;"></i> <span class="text-white" id="speed2">18Km/h</span>
+                <i class="fa-solid fa-compass p-1 fa-xl" style="color: #c3c6d1;"></i> <span class="text-white" id="dir2">East</span>
+              </div>
+
+            </div>
+
+
+
+            <div class="col-md-4 weather rounded-4 head mt-4 border border-2 border-warning">
+              <div class="d-flex justify-content-center rounded-start-4 head">
+                <h3 class="for-colour ps-2 pt-1" id="nextnextday">Wenesday</h3>
+              </div>
+
+              <div>
+                <p class="for-colour" id="place3">Cairo</p>
+                <div class="d-flex justify-content-between">
+                  <h1 class="me-5 text-white" id="temp3">34</h1>
+                  <i class="fa-solid fa-cloud-sun fa-2xl align-self-center me-5" style="color: #ffff00;"></i>
+                  </div>
+                <p class="mt-5 mb-4 for-colour" id="state3">Cloudy</p>
+                <i class="fa-solid fa-umbrella p-1 fa-xl mb-4" style="color: #c3c6d1;"></i> <span class="text-white" id="hum3">20%</span>
+                <i class="fa-solid fa-wind p-1 fa-xl" style="color: #c3c6d1;"></i> <span class="text-white" id="speed3">18Km/h</span>
+                <i class="fa-solid fa-compass p-1 fa-xl" style="color: #c3c6d1;"></i> <span class="text-white" id="dir3">East</span>
+              </div>
+
+            </div>
+
+
+           
+
+
+         
+           
+            </div>
+
+          
+
+        </div>
+
+      </div>
+
+          
+
+
+             <script src="js/bootstrap.bundle.min.js"></script>
+             <script src="js/script.js"></script>
+    </body>
+</html>

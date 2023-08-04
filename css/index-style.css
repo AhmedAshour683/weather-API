@@ -1,0 +1,41 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.linko:hover
+{
+color: #0D6EFD !important;
+
+}
+
+.inputo
+{
+    background-color: rgba(30, 32, 43,0.5);
+  
+}
+
+.button1
+{
+    position: absolute;
+    top: 53%;
+    right: 25.5%;
+    background-color: #0D6EFD !important;
+}
+
+.weather
+{
+    background-color:#1E202B ;
+}
+
+.for-colour
+{
+
+    color: #BFC1C8 ;
+}
+
+.head
+{
+    background-color: #2D303D !important;
+}
+
